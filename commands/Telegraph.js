@@ -5,7 +5,7 @@
  You may not use this file except in compliance with the License.
  It is supplied in the hope that it may be useful.
  * @project_name : Avatar-Md
- * @author : SamPandey001 <https://github.com/SamPandey001>
+ * @author : Avatar_Team <https://github.com/Avatar_Team>
  * @description : Avatar,A Multi-functional whatsapp bot.
  * @version 0.0.6
  **/
@@ -21,7 +21,7 @@ cmd({
     },
     async(Void, citel,text) => {
  let a = citel.quoted ? citel.quoted.text : citel.text;
-let { data } = await axios.get(`https://api.telegra.ph/createPage?access_token=d3b25feccb89e508a9114afb82aa421fe2a9712b963b387cc5ad71e58722&title=Avatar-Md+Bot&author_name=SamPandey001&content=[%7B"tag":"p","children":["${a.replace(/ /g,'+')}"]%7D]&return_content=true`);
+let { data } = await axios.get(`https://api.telegra.ph/createPage?access_token=d3b25feccb89e508a9114afb82aa421fe2a9712b963b387cc5ad71e58722&title=Avatar-Md+Bot&author_name=Avatar_Team&content=[%7B"tag":"p","children":["${a.replace(/ /g,'+')}"]%7D]&return_content=true`);
 return citel.reply(`*Paste created on telegraph*\nName:-${util.format(data.result.title)} \nUrl:- ${util.format(data.result.url)}`)
     }
 );

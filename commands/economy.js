@@ -5,7 +5,7 @@
  It is supplied in the hope that it may be useful.
  * @project_name : Avatar-Md
  * @author : @jayjay-ops <https://github.com/jayjay-ops>
- * @modified by : @SamPandey001 <https://github.com/SamPandey001>
+ * @modified by : @Avatar_Team <https://github.com/Avatar_Team>
  * @description : Avatar,A Multi-functional whatsapp bot.
  * @version 0.0.6
  **/

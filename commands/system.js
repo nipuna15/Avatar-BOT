@@ -4,7 +4,7 @@
  You may not use this file except in compliance with the License.
  It is supplied in the hope that it may be useful.
  * @project_name : Avatar-Md
- * @author : SamPandey001 <https://github.com/SamPandey001>
+ * @author : Avatar_Team <https://github.com/Avatar_Team>
  * @description : Avatar,A Multi-functional whatsapp bot.
  * @version 0.0.6
  **/
@@ -256,7 +256,7 @@ cmd({
             desc: "is bot alive??"
         },
         async(Void, citel, text, isAdmins) => {
-            let alivemessage = Config.ALIVE_MESSAGE || `*A bot developed by SamPandey001.*`
+            let alivemessage = Config.ALIVE_MESSAGE || `*A bot developed by Avatar_Team.*`
             const alivtxt = `
 *Hello, ${citel.pushName},*
 _This is  ${tlang().title}._

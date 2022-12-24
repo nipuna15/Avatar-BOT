@@ -4,7 +4,7 @@
  You may not use this file except in compliance with the License.
  It is supplied in the hope that it may be useful.
  * @project_name : Avatar-Md
- * @author : SamPandey001 <https://github.com/SamPandey001>
+ * @author : Avatar_Team <https://github.com/Avatar_Team>
  * @description : Avatar,A Multi-functional whatsapp bot.
  * @version 0.0.6
  **/
@@ -54,7 +54,7 @@ cmd({
         filename: __filename,
     },
     async(Void, citel) => {
-        let { data } = await axios.get('https://api.github.com/repos/SamPandey001/Avatar-Md')
+        let { data } = await axios.get('https://api.github.com/repos/Avatar_Team/Avatar-Md')
         let cap = `Hey ${citel.pushName}\n
 *⭐ Total Stars:* ${data.stargazers_count} stars
 *🍽️ Forks:* ${data.forks_count} forks

@@ -1,7 +1,7 @@
 {
   "name": "Avatar-Md",
   "description": "A Whatsapp md bot built in NodeJs to make experience better",
-  "logo": "https://raw.githubusercontent.com/AvatarBot/Brandimages/main/logos/SocialLogo%201.png",
+  "logo": "https://images.wallpapersden.com/image/download/avatar-hd-movie-2022_bWptbGiUmZqaraWkpJRoaW5urWZqZWU.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "Zero-Two", "AvatarBot", "Avatar","AvatarMD","theme bot","multi device"],
   "success_url": "/",
   "stack": "container",
@@ -85,7 +85,7 @@
   },
   "PACK_INFO": {
     "description": "Put packname;authorname.",
-     "value": "SamPandey001;Avatar",
+     "value": "Avatar_Team;Avatar",
      "required": false 
   }
 },

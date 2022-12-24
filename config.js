@@ -7,16 +7,16 @@ global.owner = process.env.OWNER_NUMBER.split(",")
 global.mongodb = process.env.MONGODB_URI || "Enter-MongoURI-HERE"
 global.port= process.env.PORT || 5000
 global.email = 'sam@Avatar.live'
-global.github = 'https://github.com/SamPandey001/Avatar-Md'
+global.github = 'https://github.com/nipuna15/Avatar-BOT'
 global.location = 'Sultanpur IN'
 global.gurl = 'https://instagram.com/' // add your username
 global.sudo = process.env.SUDO || '919628516236'
 global.devs = '919628516236';
-global.website = 'https://github.com/SamPandey001/Avatar-Md' //wa.me/+91000000000000
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://raw.githubusercontent.com/AvatarBot/Brandimages/main/logos/SocialLogo%201.png'
+global.website = 'https://github.com/nipuna15/Avatar-BOT' //wa.me/+91000000000000
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://images.wallpapersden.com/image/download/avatar-hd-movie-2022_bWptbGiUmZqaraWkpJRoaW5urWZqZWU.jpg'
 module.exports = {
   botname: process.env.BOT_NAME || '𝐒𝐞𝐜𝐤𝐭𝐨𝐫 𝐁𝐨𝐭𝐭𝐨',
-  ownername:process.env.OWNER_NAME || 'SamPandey001',
+  ownername:process.env.OWNER_NAME || 'Avatar_Team',
   sessionName: process.env.SESSION_ID || 'PUT-HERE',
   author: process.env.PACK_INFO.split(";")[0] || 'author', 
   auto_read_status : process.env.AUTO_READ_STATUS || 'false',

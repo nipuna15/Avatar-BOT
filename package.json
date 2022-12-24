@@ -52,8 +52,8 @@
                        "@shineiichijo/marika": "^2.0.3",           
                        "translatte": "^3.0.1",
                        "util": "^0.12.4",           
-                       "Avatar-pack": "latest",
-                       "ytdl-Avatar": "latest",
+                       "secktor-pack": "latest",
+                       "ytdl-secktor": "latest",
                        "pastebin-js": "latest",
                        "wa-sticker-formatter": "^4.3.2"
                       },
@@ -66,10 +66,10 @@
                     },
                  "repository": {
                  "type": "git",
-                 "url": "git+https://github.com/SamPandey001/Avatar-Md.git"
+                 "url": "git+https://github.com/nipuna15/Avatar-BOT.git"
                   },
                  "bugs": {
-                 "url": "https://github.com/SamPandey001/Avatar-Md/issues"
+                 "url": "https://github.com/nipuna15/Avatar-BOT/issues"
                   },
-                 "homepage": "https://github.com/SamPandey001/Avatar-Md#readme"
+                 "homepage": "https://github.com/nipuna15/Avatar-BOT-Md#readme"
                   }
